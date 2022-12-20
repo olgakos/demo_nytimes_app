@@ -21,5 +21,10 @@ Some mobile tests to New York Times App
 
 Сборка в Дженкинс: https://jenkins.autotests.cloud/job/C02_OlgaKos_python_newyorktimes_app_test/
 
+BS: 
+"userName" : "olga_ouHam9", "accessKey" : "iDs7wY8LzQqGhHiJ1369"
+
+Токер приложения в BS bs://0e73cacaa99b3e3085b1aa1533521c6a24df4de0
+
 
 
