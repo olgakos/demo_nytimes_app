@@ -11,24 +11,24 @@ def test_dark_theme():
     with step('Enter to App'):
         browser.element((AppiumBy.ACCESSIBILITY_ID, 'Continue')).click()
     with step('Go to User setting'):
-        browser.element((AppiumBy.ACCESSIBILITY_ID, '***')).click()
+        browser.element((AppiumBy.ACCESSIBILITY_ID, 'com.nytimes.android:id/touch_outside')).click()
     with step('Check Dark Theme'):
-        browser.element((AppiumBy.ACCESSIBILITY_ID, '***')).click()
+        browser.element((AppiumBy.ACCESSIBILITY_ID, 'com.nytimes.android:id/touch_outside')).click()
     with step('Verify content found'):
-        browser.all((AppiumBy.ID, '!!org.wikipedia.alpha:id/page_list_item_title')) \
+        browser.all((AppiumBy.ID, 'com.nytimes.android:id/touch_outside')) \
             .should(have.size_greater_than(0))
     add_video(browser)
 
 
 def test_nyt_search():
     with step('Press Sections buttom'):
-        browser.element((AppiumBy.ACCESSIBILITY_ID, '***')).click()
+        browser.element((AppiumBy.ACCESSIBILITY_ID, 'com.nytimes.android:id/touch_outside')).click()
     with step('Go to search field'):
-        browser.element((AppiumBy.ACCESSIBILITY_ID, '***')).click()
+        browser.element((AppiumBy.ACCESSIBILITY_ID, 'com.nytimes.android:id/touch_outside')).click()
     with step('Type search worlds'):
         browser.element((AppiumBy.ACCESSIBILITY_ID, 'Search Articles')).click()
-        browser.element((AppiumBy.ID, "!!org.wikipedia.alpha:id/search_src_text")).type('harry potter')
+        browser.element((AppiumBy.ID, "com.nytimes.android:id/touch_outside")).type('harry potter')
     with step('Verify content found'):
-        browser.all((AppiumBy.ID, '!!org.wikipedia.alpha:id/page_list_item_title')) \
+        browser.all((AppiumBy.ID, 'com.nytimes.android:id/touch_outside')) \
             .should(have.size_greater_than(0))
     add_video(browser)
