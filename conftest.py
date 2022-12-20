@@ -32,9 +32,9 @@ def app_android():
         "project": "Python NYT project",
         "build": "browserstack-build-" + str(date.today()),
         'bstack:options': {
-            "projectName": "Python NYT project",
-            "buildName": "browserstack-build-NYT",
-            "sessionName": "BStack test"
+            "projectName" : "First Python project",
+            "buildName" : "browserstack-build-1",
+            "sessionName" : "BStack first_test",
         }
     }
     browser.config.driver = webdriver.Remote(
