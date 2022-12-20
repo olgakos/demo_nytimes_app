@@ -4,6 +4,8 @@ Some mobile tests to New York Times App
 Мобильное приложенеи взято из публичного источника: https://nytimes.en.uptodown.com/android
 Возможности приложения описаны здесь: https://help.nytimes.com/hc/en-us/articles/115015970768-Android-News-App
 
+Дженкинс: https://jenkins.autotests.cloud/job/C02_OlgaKos_python_newyorktimes_app_test/
+
 Тест 1: 
 1. Открыть приложение app
 2. Клик на иконку "Профиль"
