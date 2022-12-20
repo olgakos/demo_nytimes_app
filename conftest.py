@@ -20,8 +20,8 @@ def app_android():
     """
     Create driver
     """
-    USER = os.getenv('LOGIN')
-    KEY = os.getenv('KEY')
+    #USER = os.getenv('LOGIN')
+    #KEY = os.getenv('KEY')
     APPIUM_BROWSERSTACK = os.getenv('APPIUM_BROWSERSTACK')
 
     desired_cap = {
