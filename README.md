@@ -19,5 +19,7 @@ Some mobile tests to New York Times App
 5. Нажать кнопку `Go`   
 6. Проверить, что выдача содержить текст "Tom Felton"
 
+Сборка в Дженкинс: https://jenkins.autotests.cloud/job/newyorktimes_app_test/
+
 
 
